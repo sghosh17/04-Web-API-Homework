@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;693&family=Josefin+Sans:ital,wght@0,400;1,300&family=Lato:wght@300&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+/*.info_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+.info_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: max-content;
+  width: 600px;
+  background: wheat;
+  border-radius: 10px;
+}
+
+.info_box .info_title {
+  height: 35px;
+  width: 100%;
+  border-bottom: sienna 3px solid;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info_box .info_list {
+  padding: 15px 35px;
+}
+
+.info_box .info_list .info {
+  margin: 5px 0;
+  font-size: 20x;
+}
+
+.info_box .info_list .info span {
+  font-weight: bold;
+  color: red;
+}
+
+.info_box .buttons {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 35px;
+  border-top: 2px solid brown;
+}
+
+.info_box .buttons button {
+  margin: 0 7px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid brown;
+  background: coral;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+/*.buttons button .exit {
+  color: black;
+  font-weight: 200;
+}
+
+.buttons button .start {
+  color: black;
+  font-weight: 200;
+}*/
+
+.buttons button.exit:hover {
+  color: blue;
+  font-weight: 800;
+}
+
+.buttons button.start:hover {
+  color: blue;
+  font-weight: 800;
+}
