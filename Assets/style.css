@@ -80,16 +80,6 @@ body {
   cursor: pointer;
 }
 
-/*.buttons button .exit {
-  color: black;
-  font-weight: 200;
-}
-
-.buttons button .start {
-  color: black;
-  font-weight: 200;
-}*/
-
 .buttons button.exit:hover {
   color: blue;
   font-weight: 800;
@@ -98,4 +88,21 @@ body {
 .buttons button.start:hover {
   color: blue;
   font-weight: 800;
+}
+
+.Output {
+}
+
+.outcome {
+  border-top: 3px solid brown;
+  margin: 5px 0;
+  padding: 15px 35px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
